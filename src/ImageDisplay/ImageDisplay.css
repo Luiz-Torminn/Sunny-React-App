@@ -1,0 +1,22 @@
+.images-display {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+.image-display__group {
+  min-width: 50%;
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.image-display__group img {
+  width: 50%;
+  object-fit: cover;
+}
+
+@media (max-width: 768px) {
+  .image-display__group img {
+    width: 100%;
+  }
+}

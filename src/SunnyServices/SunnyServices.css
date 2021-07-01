@@ -1,0 +1,100 @@
+.service {
+  display: flex;
+  flex-direction: column;
+}
+
+.service__describe {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+}
+
+.service__describe__wrapreverse {
+  flex-wrap: wrap-reverse;
+}
+
+.service__describe__wrap {
+  flex-wrap: wrap;
+}
+
+.service__describe div {
+  flex-basis: 50%;
+}
+
+.service__images {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.service__images img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: flex;
+  justify-content: center;
+}
+
+.service__text {
+  padding: 10%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.learn__yellow {
+  position: relative;
+  border-radius: 10px;
+  text-align: center;
+  width: 140px;
+  height: 10px;
+  background-color: #fad400;
+  top: -7px;
+  left: -13px;
+  z-index: -1;
+}
+
+.learn__red {
+  position: relative;
+  border-radius: 10px;
+  text-align: center;
+  width: 140px;
+  height: 10px;
+  background-color: #fe7867;
+  top: -7px;
+  left: -13px;
+  z-index: -1;
+}
+
+.service__text h1 {
+  font-size: 2.5rem;
+  margin-bottom: 50px;
+}
+
+.service__text a {
+  font-family: "Fraunces", serif;
+  color: #000;
+}
+
+.service__text p {
+  margin-bottom: 50px;
+  color: hsl(232, 10%, 55%);
+}
+
+.image-text {
+  width: 90%;
+  position: absolute;
+  top: 60%;
+}
+
+.image-text h1 {
+  margin-bottom: 20px;
+  font-size: 1.6rem;
+}
+
+@media (max-width: 768px) {
+  .service__describe div {
+    flex-basis: 100%;
+  }
+}

@@ -41,7 +41,7 @@ const Footer = () => {
       </div>
       <div className="footer__social">
         <a
-          href="https://upload.wikimedia.org/wikipedia/commons/4/42/07_05_2021_Cerim%C3%B4nia_de_Inaugura%C3%A7%C3%A3o_da_ponte_sobre_o_Rio_Madeira%2C_BR-364%2C_Distrito_de_Abun%C3%A3_%2851164250821%29_%28cropped%29.jpg"
+          href="#"
           target="_blank"
         >
           <FacebookIcon
@@ -50,7 +50,7 @@ const Footer = () => {
           />
         </a>
         <a
-          href="https://portalcontexto.com/wp-content/uploads/2020/10/Pit-Dog.jpg"
+          href="#"
           target="_blank"
         >
           <PinterestIcon
@@ -59,7 +59,7 @@ const Footer = () => {
           />
         </a>
         <a
-          href="https://pbs.twimg.com/media/DaVps_UXkAE-6qs.jpg"
+          href="#"
           target="_blank"
         >
           <TwitterIcon
@@ -68,7 +68,7 @@ const Footer = () => {
           />
         </a>
         <a
-          href="https://image.shutterstock.com/image-photo/wild-american-mustang-horse-black-600w-1100305949.jpg"
+          href="#"
           target="_blank"
         >
           <InstagramIcon
